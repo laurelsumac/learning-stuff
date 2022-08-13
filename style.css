@@ -48,8 +48,14 @@ li {
     padding: 10px;
 }
 
-.button {
-    
+.button1 {
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+    background-color: #3882F6;
+    height: max-content;
+    padding: 8px 15px;
 }
 
 .thor {
@@ -60,7 +66,5 @@ li {
     font-weight: lighter;
 }
 
-.action {
-    background-color: #3882F6;
-}
+
 
