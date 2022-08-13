@@ -1,4 +1,17 @@
-body {
-    background: rgb(224, 133, 133);
+.hero {
+    background-color: #1F2937;
     font-style: roboto;
   }
+.head {
+    font-size: 24px;
+    color: #E5E7Eb;
+}
+#main {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+#secondary {
+    font-size: 18px;
+    color: #E5E7Eb;
+}
