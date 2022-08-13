@@ -1,9 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
-.hero {
-    background-color: #1F2937;
-  }
+
 .hero.logo {
     font-size: 24px;
     color: #E5E7Eb;
@@ -14,7 +12,38 @@ body {
     font-weight: extra-bold;
     color: #F9FAF8;
 }
-#secondary {
+.secondary {
     font-size: 18px;
     color: #E5E7Eb;
+}
+
+.boxTop {
+    display: flex;
+}
+
+.boxTop {
+    background-color: #1F2937;
+    flex: 1;
+}
+
+.loggy {
+    justify-self: flex-start;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0
+    padding: 0
+}
+
+.thor {
+    background-color: #E5E7Eb;
+    color:#1F2937
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.action {
+    background-color: #3882F6;
 }
