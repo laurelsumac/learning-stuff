@@ -1,10 +1,13 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
 .hero {
     background-color: #1F2937;
-    font-style: roboto;
   }
-.head {
+.hero.logo {
     font-size: 24px;
     color: #E5E7Eb;
+
 }
 #main {
     font-size: 48px;
