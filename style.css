@@ -1,24 +1,29 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 0;
+    text-align: center;
+    margin: 0;
     padding: 0;
 }
 
-.first, .second, .third, fourth{
+.container {
+    display: flex;
+    flex-direction: column;
     min-height: 400px;
     justify-content: center;
     align-items: center;
 }
+
+/*navigation Bar */
+
+.nav {
+    display: flex;
+}
+
 .first, .third, .fourth {
 
     display: flex;
     flex-direction: column;
     width: 100vw;
-    
-
 }
 
 .first {
@@ -26,40 +31,10 @@ body {
     margin: 15px 60px;
 }
 
-.second {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-}
-
-.third {
-    background-color: #E5E7Eb;
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-}
-}
-
-.fourth {
-    background-color: white;
-
-}
-
-.nav, .hero {
-    display: flex;
-    margin: 15px 60px;
-    align-items: center;
-    max-width: 1000px;
-}
 
 
-.heroleft {
-    display: flex;
-    margin: 15px 60px;
-    flex-wrap: wrap;
-    flex-direction: column;
-    max-width: 500px;
+.rightlinks {
+    
 }
 
 .logo {
@@ -67,72 +42,44 @@ body {
     color: #F9FAF8;
 }
 
+ul {
+    list-style-type: none;  
+    margin: 0;
+    padding: 0;
+
+}
+
+li {
+    display:inline-block;
+    padding: 10px;
+}
+
+.hero {
+    display: flex;
+    margin: 15px 60px;
+    align-items: center;
+    max-width: 1100px;
+}
+
+.heroleft {
+    display: flex;
+    margin: 15px 60px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 600px;
+    padding: 10px;
+}
+
+
 .main {
     font-size: 48px;
     font-weight: extra-bold;
     color: #F9FAF8;
 }
 
-.secondary {
+.secondary, .rightlinks {
     font-size: 18px;
-    color: #E5E7Eb;
-
-}
-
-ul {
-    list-style-type: none;  
-    margin: 0;
-    padding: 0;
-}
-
-li {
-    display: inline;
-    padding: 10px;
-}
-
-.photosntext, .secondtitle, .nav, .hero {
-    max-width: 1200px;
-}
-
-.photosntext {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    gap: 20px;
-    align-items: center;
-}
-
-.random {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.thorsy {
-    display: flex;
-    flex-direction: column;
-    max-width: 1000px;
-}
-
-.thor {
-
-    color:#1F2937
-    font-size: 36px;
-    font-style: italic;
-    font-weight: lighter;
-}
-
-.godofthunder {
-    justify-content: flex-end;
-    display: flex;
-    font-weight: bolder;
-}
-
-.callbox {
-    background-color: #3882F6;
-    display: flex;
-    max-width: fit-content;
-    align-items: center;
+    color: #E5E7Eb;  
 }
 
 .button1 {
@@ -147,25 +94,110 @@ li {
     margin: 10px 0px;
 }
 
-.button2 {
-    border: 2px white;
-    border-radius: 6px;
-    text-decoration: none;
-    background-color: #3882F6;
-    height: max-content;
+.second {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
 
+}
 
+.secondtitle {
+    font-size: 36px;
+    font-weight: bolder;
+    max-width: 1100px;
 }
 
 .subtext, .secondtitle {
     text-align: center;
 }
 
-.secondtitle {
-    font-size: 36px;
-    font-weight: bolder;
+
+.photosntext {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
+    max-width: 1100px;
 }
 
 .fern {
     border-radius: 6%;
+}
+
+.random {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third {
+    background-color: #E5E7Eb;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.thorsy {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+}
+
+.thor {
+
+    color:#1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.godofthunder {
+    justify-content: flex-end;
+    display: flex;
+    font-weight: bolder;
+}
+
+.fourth {
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+    gap: 50px;
+    flex-direction: column;
+    
+}
+
+.callbox {
+    background-color: #3882F6;
+    display: flex;
+    min-width: fit-content;
+    padding: 70px 100px;
+    border-radius: 6px;
+
+}
+
+.action {
+    max-width: 700px;
+}
+
+.call, .button2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.sign {
+    font-size: 28px;
+    font-weight: lighter;
+    color: white;
+}
+
+.button2 {
+    border: white;
+    border-radius: 6px;
+    background-color: transparent;
+
+
 }
