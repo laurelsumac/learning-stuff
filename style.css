@@ -1,26 +1,58 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    max-width: 1300px;
-    flex-grow: 1;
+    align-items: center;
+    margin-top: 0;
+    padding: 0;
 }
 
-.nav {
-    display: flex;
-    margin: 15px 60px;
-    justify-content: space-between;
-    flex-direction: row;
+.first, .second, .third, fourth{
+    min-height: 400px;
+    justify-content: center;
     align-items: center;
 }
+.first, .third, .fourth {
 
-.hero {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    
+
+}
+
+.first {
+    background-color: #1F2937;
+    margin: 15px 60px;
+}
+
+.second {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.third {
+    background-color: #E5E7Eb;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+}
+
+.fourth {
+    background-color: white;
+
+}
+
+.nav, .hero {
     display: flex;
     margin: 15px 60px;
-    justify-content: space-between;
-    
+    align-items: center;
+    max-width: 1000px;
 }
+
 
 .heroleft {
     display: flex;
@@ -44,6 +76,7 @@ body {
 .secondary {
     font-size: 18px;
     color: #E5E7Eb;
+
 }
 
 ul {
@@ -55,6 +88,51 @@ ul {
 li {
     display: inline;
     padding: 10px;
+}
+
+.photosntext, .secondtitle, .nav, .hero {
+    max-width: 1200px;
+}
+
+.photosntext {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
+}
+
+.random {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thorsy {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+}
+
+.thor {
+
+    color:#1F2937
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.godofthunder {
+    justify-content: flex-end;
+    display: flex;
+    font-weight: bolder;
+}
+
+.callbox {
+    background-color: #3882F6;
+    display: flex;
+    max-width: fit-content;
+    align-items: center;
 }
 
 .button1 {
@@ -69,13 +147,25 @@ li {
     margin: 10px 0px;
 }
 
-.thor {
-    background-color: #E5E7Eb;
-    color:#1F2937
-    font-size: 36px;
-    font-style: italic;
-    font-weight: lighter;
+.button2 {
+    border: 2px white;
+    border-radius: 6px;
+    text-decoration: none;
+    background-color: #3882F6;
+    height: max-content;
+
+
 }
 
+.subtext, .secondtitle {
+    text-align: center;
+}
 
+.secondtitle {
+    font-size: 36px;
+    font-weight: bolder;
+}
 
+.fern {
+    border-radius: 6%;
+}
