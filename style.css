@@ -19,16 +19,19 @@ body {
     align-items: center;
 }
 
+
+
 .logo {
     font-size: 24px;
     color: #F9FAF8;
     margin-right: auto;
-    padding: 20px;
+    padding-left: 100px;
 }
 
 .rightlinks {
     margin-left: auto;
     padding: 20px;
+    padding-right: 100px;
 }
 
 a {
@@ -38,3 +41,37 @@ a {
 }
 
 /* Hero */
+.hero {
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 400px;
+    padding: 0px 20px 30px;
+
+}
+
+.heroleft {
+    max-width: 600px;
+    text-align: left;
+}
+
+.main {
+    font-size: 48px;
+    font-weight:bolder;
+    color: #F9FAF8;
+}
+
+.mainsub {
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+.button1 {
+    color:#F9FAF8;
+    background-color: #3882F6;
+    font-size: 18px;
+    padding: 5px 25px;
+    border-radius: 8px;
+    font-weight: bolder;
+}
