@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: #1F2937;
 }
 
@@ -7,25 +7,29 @@ body {
     display: flex;
     margin: 15px 60px;
     justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
 }
 
 .hero {
     display: flex;
     margin: 15px 60px;
     justify-content: space-between;
+    
 }
 
 .heroleft {
     display: flex;
     margin: 15px 60px;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
-
 }
+
 .main {
     font-size: 48px;
     font-weight: extra-bold;
@@ -55,7 +59,9 @@ li {
     border-radius: 8px;
     background-color: #3882F6;
     height: max-content;
+    width: 100px;
     padding: 8px 15px;
+    margin: 10px 0px;
 }
 
 .thor {
