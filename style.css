@@ -121,6 +121,7 @@ a {
     font-weight: lighter;
     font-size: 36px;
     color: #1F2937;
+    text-align: left;
 }
 
 .godofthunder {
@@ -129,3 +130,48 @@ a {
     margin-left: auto;
 }
 
+/* Call To Action*/
+
+.fourth {
+    display: flex;
+    justify-content: center;
+}
+
+.callbox {
+    display: flex;
+    background-color: #3882F6;
+    padding: 30px 90px;
+    gap: 40px;
+    color: #E5E7EB;
+    border-radius: 8px;
+}
+
+.call {
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: start;
+}
+
+.sign {
+    font-weight: lighter;
+}
+
+.button2 {
+    color:#F9FAF8;
+    background-color: #3882F6;
+    font-size: 18px;
+    padding: 5px 25px;
+    border-radius: 8px;
+    font-weight: bolder;
+}
+
+
+/* Footer*/
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1F2937;
+    color:#E5E7EB;
+    height: 100px;
+}
